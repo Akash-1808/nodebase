@@ -92,6 +92,7 @@ export const RegisterForm = () => {
                                     type="button"
                                     disabled={isPending}
                                     >
+                                        <Image src={"/github.svg"} alt="Github" width={20} height={20} className="mr-2" />
                                         Continue with Github
                                     </Button>
                                     <Button
@@ -100,6 +101,7 @@ export const RegisterForm = () => {
                                     type="button"
                                     disabled={isPending}
                                     >
+                                        <Image src={"/google.svg"} alt="Google" width={20} height={20} className="mr-2" />
                                         Continue with Google
                                     </Button>
                                 </div>
